@@ -1,6 +1,7 @@
 import Link from "next/link"
 
-export default function Hero() {
+// Using named export instead of default export
+export function HeroSection() {
   return (
     <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
       <div className="container mx-auto px-4 md:px-6">
