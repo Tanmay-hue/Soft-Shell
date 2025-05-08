@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 
-export default function ContactForm() {
+// Using named export instead of default export
+export function ContactFormSection() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
