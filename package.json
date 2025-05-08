@@ -68,3 +68,13 @@
     "typescript": "^5"
   }
 }
+
+"scripts": {
+  "build": "next build",
+  "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+}
+
+"scripts": {
+  "build": "next build",
+  "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+}
