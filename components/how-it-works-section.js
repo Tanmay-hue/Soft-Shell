@@ -1,6 +1,7 @@
 import { Upload, DollarSign, CheckCircle } from "lucide-react"
 
-export default function HowItWorks() {
+// Using named export instead of default export
+export function HowItWorksSection() {
   const steps = [
     {
       icon: <Upload className="h-12 w-12 text-blue-600" />,
