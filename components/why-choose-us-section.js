@@ -1,6 +1,7 @@
 import { Shield, Clock, BadgeDollarSign, Globe } from "lucide-react"
 
-export default function WhyChooseUs() {
+// Using named export instead of default export
+export function WhyChooseUsSection() {
   const reasons = [
     {
       icon: <Shield className="h-10 w-10 text-blue-600" />,
